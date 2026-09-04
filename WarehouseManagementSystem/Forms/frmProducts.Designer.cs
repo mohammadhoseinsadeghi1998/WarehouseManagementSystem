@@ -90,7 +90,7 @@
             // toolStripStatusLabel2
             // 
             toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            toolStripStatusLabel2.Size = new Size(13, 24);
+            toolStripStatusLabel2.Size = new Size(13, 20);
             toolStripStatusLabel2.Text = "|";
             // 
             // toolStripStatusLabel3
@@ -104,7 +104,7 @@
             // toolStripStatusLabel4
             // 
             toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            toolStripStatusLabel4.Size = new Size(13, 24);
+            toolStripStatusLabel4.Size = new Size(13, 20);
             toolStripStatusLabel4.Text = "|";
             // 
             // toolStripStatusLabel5
@@ -211,6 +211,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "frmProducts";
             Text = "Form1";
+            Load += frmProducts_Load;
             statusStrip1.ResumeLayout(false);
             statusStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvProductList).EndInit();
