@@ -1,8 +1,8 @@
 namespace WarehouseManagementSystem
 {
-    public partial class Form1 : Form
+    public partial class frmProducts : Form
     {
-        public Form1()
+        public frmProducts()
         {
             InitializeComponent();
         }
